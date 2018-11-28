@@ -38,5 +38,5 @@ sudo systemctl enable docker
 sudo systemctl start docker
 
 git clone https://github.com/ansible/awx.git /home/${WORK_USER}/awx
-cd /home/${WORK_USER}/awx/installer
-ansible-playbook -i inventory install.yml
+#cd /home/${WORK_USER}/awx/installer
+#ansible-playbook -i inventory install.yml
